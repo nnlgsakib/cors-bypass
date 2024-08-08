@@ -29,7 +29,7 @@ const corsBypassProxy = createProxyMiddleware({
 // Use the proxy middleware
 app.use('/', corsBypassProxy);
 
-const PORT = 3000;
+const PORT = 4040;
 app.listen(PORT, () => {
   console.log(`CORS bypass proxy running on port ${PORT}`);
 });
